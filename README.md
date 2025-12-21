@@ -86,7 +86,7 @@ locker secrets.enc -d -o restored.txt -f
 
 > [!TIP]
 > Run `locker --help` to see all available options.
->
+
 > [!CAUTION]
 > Using `-p` exposes passwords in shell history and process lists. Prefer the interactive prompt for sensitive operations.
 
