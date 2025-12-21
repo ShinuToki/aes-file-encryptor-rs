@@ -1,0 +1,21 @@
+[package]
+name = "aes-file-encryptor-rs"
+version = "0.1.0"
+edition = "2024"
+description = "AES-GCM File Encryption Tool"
+authors = ["Joan Lara Ganau"]
+license = "MIT"
+
+[dependencies]
+aes-gcm = "0.10.3"
+anyhow = "1.0.100"
+clap = { version = "4.5.53", features = ["derive"] }
+rand = "0.9.2"
+rpassword = "7.4.0"
+scrypt = { version = "0.11.0", features = ["std"] }
+tempfile = "3.23.0"
+zeroize = { version = "1.8.2", features = ["derive"] }
+
+[[bin]]
+name = "locker"
+path = "src/main.rs"
