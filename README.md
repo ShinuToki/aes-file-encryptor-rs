@@ -1,5 +1,6 @@
 # AES File Encryptor (Rust)
 
+![Release](https://img.shields.io/github/v/release/ShinuToki/aes-file-encryptor-rs?color=brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-stable-orange.svg)
 
@@ -22,11 +23,17 @@ The tool generates a lightweight binary named `locker` (or `locker.exe` on Windo
 
 ## Installation
 
-### Prerequisites
+### Pre-compiled Binaries (Easiest)
 
-- [Rust & Cargo](https://rustup.rs/) (Stable)
+If you don't want to install Rust, you can download the latest pre-compiled binaries for **Windows, Linux, and macOS** directly from the [**Releases**](https://github.com/ShinuToki/aes-file-encryptor-rs/releases) page.
+
+1. Download the file for your OS.
+2. (Optional) Rename it to `locker` or `locker.exe`.
+3. Move it to a folder in your system PATH to run it from anywhere.
 
 ### Build from Source
+
+If you prefer to compile it yourself, ensure you have [Rust & Cargo](https://rustup.rs/) installed.
 
 ```bash
 git clone https://github.com/ShinuToki/aes-file-encryptor-rs.git
