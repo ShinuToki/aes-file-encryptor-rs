@@ -23,7 +23,7 @@ The tool generates a lightweight binary named `locker` (or `locker.exe` on Windo
 
 ## Installation
 
-### Pre-compiled Binaries (Easiest)
+### Pre-compiled Binaries
 
 If you don't want to install Rust, you can download the latest pre-compiled binaries for **Windows, Linux, and macOS** directly from the [**Releases**](https://github.com/ShinuToki/aes-file-encryptor-rs/releases) page.
 
